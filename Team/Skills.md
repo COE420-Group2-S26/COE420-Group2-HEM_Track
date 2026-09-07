@@ -26,3 +26,10 @@ Member C:
 * Adaptability
 * Programming Languages (C++, Python, Java)
 
+Member D:
+
+* Programming (Python, C++, Java)
+* git 
+* OpenCV
+* Project Management 
+
