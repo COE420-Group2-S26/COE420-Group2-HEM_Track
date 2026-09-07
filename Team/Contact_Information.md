@@ -7,5 +7,7 @@ b00100670@aus.edu
 
 b00101633@aus.edu
 
+\[Member C]
 
+b00101027@aus.edu
 

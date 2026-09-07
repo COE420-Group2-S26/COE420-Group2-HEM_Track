@@ -16,3 +16,13 @@ Major: COmputer Science
 
 Username:b00101633-png
 
+\[Member C]
+
+Name: Adithya Vagheeswar
+
+ID: b00101027
+
+Major: Computer Science
+
+Username: b00101027-ai
+

@@ -19,3 +19,10 @@ Member B:
 
 
 
+Member C:
+
+* Critical Thinker
+* Creative
+* Adaptability
+* Programming Languages (C++, Python, Java)
+
