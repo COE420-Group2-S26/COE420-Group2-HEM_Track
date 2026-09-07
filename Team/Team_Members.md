@@ -26,3 +26,14 @@ Major: Computer Science
 
 Username: b00101027-ai
 
+\[Member D]
+
+Name: Azim Mohamed
+
+ID: b00099970
+
+Major: Computer Science
+
+Username: azimaus970
+
+
