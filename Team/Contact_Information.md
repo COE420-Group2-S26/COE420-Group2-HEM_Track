@@ -11,3 +11,7 @@ b00101633@aus.edu
 
 b00101027@aus.edu
 
+\[Member D]
+
+b00099970@aus.edu
+
