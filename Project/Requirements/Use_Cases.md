@@ -71,11 +71,47 @@ After fixing a broken centrifuge, the technician inputs that the machine was dow
 
 
 
-
-
 **Adithya**
 
+UC-11
 
+Authenticate User Login 
+
+Primary Actor: Clinical Staff / Admin
+
+A user enters their username and password, then successfully completes a 2-factor authentication prompt to securely access their role-specific dashboard.
+
+UC-12
+
+Assign Maintenance Work Order 
+
+Primary Actor: Clinical Supervisor
+
+The supervisor selects an open work order for a malfunctioning incubator and explicitly assigns it to a specialized external vendor for repair.
+
+UC-13
+
+Review Asset History
+
+Primary Actor: Maintenance Technician
+
+A technician pulls up the maintenance history log for an anesthesia machine to review all timestamped calibration activities performed over the last two years. 
+
+UC-14
+
+Filter Inventory by Department
+
+Primary Actor: Clinical Staff
+
+A doctor uses the system's search capabilities to filter equipment by the "Cardiology" department and "Operational" status to quickly locate an available EKG machine.
+
+UC-15
+
+Retire Obsolete Equipment
+
+Primary Actor: Maintenance Technician / Clinical Staff
+
+A technician marks a 15-year-old imaging machine as decommissioned in the system and logs "End of life cycle / irreparable" as the official reason for disposal.
 
 
 

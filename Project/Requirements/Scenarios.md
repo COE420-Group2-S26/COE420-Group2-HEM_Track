@@ -11,6 +11,14 @@ Scenario 1
 Adithya
 Scenario 2
 
+* Dr. Pamela Isley opens the HEM-Track login page and enters her username and password.
+* She completes the two-factor verification by entering the code sent to her registered device.
+* The system verifies her credentials and opens the doctor dashboard, showing only the Inventory, and Equipment Requests tabs.
+* She tries to open the "Equipment Management" page through its direct link, and the system blocks her with an "Access Denied" message because her role lacks that permission.
+* She logs out of the system.
+
+
+
 
 
 Aaditya

@@ -19,9 +19,25 @@ Compatibility: The system should be accessible via desktop and mobile/tablet bro
 
 **Adithya**
 
+NFR-06
 
+Availability: The system should be available at any time, given its role in supporting critical hospital operations.
 
+NFR-07
 
+Performance: The system should load dashboards and search results within reasonable time under normal load.
+
+NFR-08
+
+Scalability: The system should support growth in the number of records (exponential).
+
+NFR-09
+
+Security: The system should encrypt data in transit and at rest, and enforce role-based access control.
+
+NFR-10
+
+Data Integrity: The system should prevent loss or corruption of maintenance/calibration records through validation and backups.
 
 
 
