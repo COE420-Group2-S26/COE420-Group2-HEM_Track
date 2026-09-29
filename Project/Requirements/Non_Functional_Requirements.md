@@ -16,7 +16,9 @@ NFR-05
 Compatibility: The system should be accessible via desktop and mobile/tablet browsers, and support barcode scanner hardware.
 
 
+
 **Adithya**
+
 
 
 
@@ -25,14 +27,27 @@ Compatibility: The system should be accessible via desktop and mobile/tablet bro
 
 **Aaditya**
 
+NFR-11
 
+Offline Mobile Capability: Technicians should be able to login their progress even offline and it can be synced later when back online.
+
+NFR-12
+
+Configurability: Admins should be able to customize things like maintenance schedule rules, alert timing and equipment record fields directly from settings, without needing a developer to change the code each time.
+
+NFR-13
+
+Fault Tolerance: If part of the system goes down, it shouldn't crash everything and the data entered should not be deleted.
+
+NFR-14
+
+Data Migration: System should support importing old equipment maintenance records in bulk when first setting things up.
+
+NFR-15
+
+Support and Maintenance: There should be a set time frame for how fast reported bugs/issues get responded to and fixed, since this is hospital equipment.
 
 
 
 **Azim**
-
-
-
-
-
 
