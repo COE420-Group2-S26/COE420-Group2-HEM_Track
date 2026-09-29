@@ -117,7 +117,30 @@ A technician marks a 15-year-old imaging machine as decommissioned in the system
 
 **Azim**
 
+UC-16
+Generate Maintenance Cost Report
+Primary Actor: Maintenance Manager
+The manager generates a quarterly report summarizing repair costs, parts expenses, and downtime hours per department, with the option to export it as PDF or Excel.
 
+UC-17
+Report Equipment Malfunction
+Primary Actor: Clinical Staff
+A nurse reports that an infusion pump is displaying error codes by selecting the asset and describing the fault. The system creates a corrective maintenance request and flags the asset as “Out of Service.”
+
+UC-18
+Track Warranty and Contract Expiry
+Primary Actor: System
+The system monitors warranty and service contract end dates for all assets and automatically alerts the Inventory Manager 30 days before the warranty on a CT scanner expires.
+
+UC-19
+Manage Spare Parts Inventory
+Primary Actor: Inventory Manager
+The manager updates stock levels for ventilator filters and sets a minimum threshold. When stock drops below it, the system flags the item for reorder.
+
+UC-20
+Record Calibration Certificate
+Primary Actor: Maintenance Technician
+After calibrating an ECG monitor, the technician records the calibration date, next due date, and results, and attaches the signed certificate to the asset’s record.
 
 
 

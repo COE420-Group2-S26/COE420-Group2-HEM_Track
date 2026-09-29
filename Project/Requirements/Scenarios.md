@@ -19,8 +19,6 @@ Scenario 2
 
 
 
-
-
 Aaditya
 Scenario 3
 
@@ -33,11 +31,15 @@ Scenario 3
 
 
 
-
 Azim
 Scenario 4
 
-
+* Dr. Jonathan Crane logs into the HEM-Track system using his credentials.
+* While preparing an infusion pump for use, he notices that it is displaying an error code and is not operating correctly.
+* Dr. Crane opens the infusion pump's equipment record in HEM-Track.
+* He selects the option to report a malfunction and enters a description of the fault, the equipment's location, and the observed problem.
+* He submits the report, and HEM-Track creates a corrective maintenance request linked to the equipment record.
+* The system records the date and time of the report, changes the equipment status to "Out of Service," and confirms that the malfunction was successfully reported.
 
 
 

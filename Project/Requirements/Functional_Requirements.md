@@ -13,7 +13,7 @@ FR-04: Automated Reminders/Alerts: The system should send automated notification
 Source Scenario/Stakeholder: Maintenance Team
 
 FR-05: Equipment Registration: Users should be able to register new equipment with details such as asset ID, serial number, manufacturer, model, purchase date, location, and department.
-Source Scenario/Stakeholder Inventory Manager
+Source Scenario/Stakeholder: Inventory Manager
 
 
 
@@ -35,7 +35,7 @@ FR-09: Checklist Templates – Create standardized procedures for each equipment
 
 Source Scenario/Stakeholder: Maintenance Supervisor
 
-FR-10: Downtime and  Cost Tracking – Track how long equipment was down and how much each maintenance job cost.
+FR-10: Downtime and Cost Tracking – Track how long equipment was down and how much each maintenance job cost.
 
 Source Scenario/Stakeholder: Maintenance Technician
 
@@ -65,7 +65,26 @@ Source Scenario/Stakeholder: Maintenance Technician/Clinical Staff
 
 
 
-
-
 **Azim**
+
+FR-16: Reporting & Dashboards - The system should generate reports on overdue maintenance, downtime, cost per asset, and compliance status, and provide visual dashboards.
+
+Source Scenario/Stakeholder: Maintenance Manager
+
+FR-17: Warranty and Service Contract Tracking - The system should allow authorized users to record warranty and service-contract details for equipment, including provider, coverage period, and expiry date, and notify relevant staff when a warranty or contract is approaching expiration.
+
+Source Scenario/Stakeholder: Inventory Manager
+
+FR-18: Barcode/QR Code Scanning - The system should support barcode/QR code generation and scanning for quick asset identification.
+
+Source Scenario/Stakeholder: Clinical Staff
+
+FR-19: Equipment Fault Reporting / Corrective Maintenance Requests - The system should allow clinical staff to report a malfunctioning asset by selecting it and describing the fault.
+
+Source Scenario/Stakeholder: Clinical Staff
+
+FR-20: Spare Parts Inventory Management - The system should track spare-parts stock levels, allow minimum thresholds per part, flag items for reorder when stock falls below the threshold, and link parts used to a maintenance job.
+
+Source Scenario/Stakeholder: Inventory Manager / Maintenance Manager
+
 

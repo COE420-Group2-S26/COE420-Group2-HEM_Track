@@ -67,3 +67,26 @@ Support and Maintenance: There should be a set time frame for how fast reported 
 
 **Azim**
 
+NFR-16
+
+Concurrent Users: The system should support at least 100 concurrent users without performance degradation.
+
+NFR-17
+
+Disaster Recovery: The system should have a documented disaster recovery plan with offsite backup storage.
+
+NFR-18
+
+Data Privacy: The system should restrict access to sensitive equipment/patient-adjacent data per hospital privacy policy.
+
+NFR-19
+
+Auditability of Configuration Changes: Any changes to maintenance schedules, thresholds, or user roles should be logged and reversible.
+
+NFR-20
+
+Data Retention and Archival: The system should retain audit logs, maintenance and calibration history, and decommissioned-asset records for a defined minimum period, archive older records without slowing daily use, and keep them retrievable for inspection.
+
+
+
+
