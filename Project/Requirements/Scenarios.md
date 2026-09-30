@@ -45,4 +45,10 @@ Scenario 4
 
 HemoGoblins
 Scenario 5
+* Inventory Manager Victor Fries accesses the HEM-Track website on his desktop browser to register a newly purchased MRI machine. 
+* Victor inputs the new asset's ID, serial number, manufacturer, model, and department details into the equipment registration form.
+* Victor creates a preventive maintenance schedule for the machine based on an annual frequency.
+* Victor saves the new record, the system logs his action, user ID, and timestamp in the tamper-evident audit trail. 
+* Victor configures the system to trigger automated email reminders thirty days ahead of the due maintenance date. 
+* Victor navigates to the overview page to confirm the new equipment displays a real-time status of "Operational"
 
