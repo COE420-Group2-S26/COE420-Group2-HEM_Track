@@ -47,3 +47,9 @@ Member C - Adithya B -
 
 Member D - Azim -
 
+
+
+|**Class ID**|**Class Name**|**Purpose/Responsibility**|**Related Use Case(s)**|**Contributor**|
+|-|-|-|-|-|
+|C13|Alert|<br />Monitors maintenance due dates, warranty expiry and spare-part stock levels, and sends email/SMS notifications to the relevant users with delivery tracking.<br />|UC-04, UC-18, UC-19|Azim Mohamed|
+|C14|Report|<br />Generates cost summaries, downtime analysis and compliance dashboards for a date range, and exports them as PDF or Excel.<br />|UC-16, UC-01|Azim Mohamed|
