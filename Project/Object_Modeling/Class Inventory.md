@@ -4,7 +4,12 @@
 
 Member A - Zeerak -
 
-
+|**Class ID**|**Class Name**|**Purpose/Responsibility**|**Related Use Case(s)**|**Contributor**|
+|-|-|-|-|-|
+| C01 | Equipment | Stores core medical device details (ID, serial number, model, status, location) and manages operational availability. | UC-03, UC-05, UC-14, UC-21 | Zeerak Kamil |
+| C02 | Document | Manages uploaded files including equipment manuals, service contracts, warranties, and calibration certificates. | UC-08, UC-18, UC-20 | Zeerak Kamil |
+| C03 | SparePart | Tracks spare parts stock levels, unit costs, minimum reorder thresholds, and parts deducted per repair job. | UC-19 | Zeerak Kamil |
+| C04 | LocationHistory | Records each change of an equipment item's location (previous/new location, who moved it, and when) so location history can be viewed. | UC-07 | Zeerak Kamil |
 
 
 

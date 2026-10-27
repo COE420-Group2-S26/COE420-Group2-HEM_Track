@@ -2,7 +2,41 @@
 
 
 
-Member A -
+Member A (Zeerak Kamil)
+
+Classes: C01 Equipment, C02 Document, C03 SparePart, C04 LocationHistory
+
+Equipment, Document, SparePart and LocationHistory went into the team diagram exactly as in my individual diagram, with no renaming and no duplicates. None of them has a subclass or a superclass.
+
+
+
+Relationships
+
+
+
+* Equipment has Document (1 to 0..\*): every document belongs to one equipment item, and an item can have many documents (FR-08, UC-08, UC-20).
+* Document describes SparePart (0..\* to 0..\*): one document can cover several parts, and a part can appear in several documents.
+* Equipment compatible with SparePart (0..\* to 0..\*): a part can fit many equipment items, and an item can accept many parts.
+* Equipment has history LocationHistory (1 to 0..\*): each location change is saved as its own record (FR-07, UC-07).
+* User uploaded by Document (1 to 0..\*): this is Member B's link, drawn into Document (UC-08, UC-20).
+* Technician updates location of Equipment (dependency): the technician triggers the move and Equipment owns the data. This is Member B's link (UC-07).
+* Equipment follows MaintenanceSchedule (1 to 0..\*) and Equipment repaired through WorkOrder (1 to 0..\*): these are Member C's links, drawn into Equipment (FR-02, UC-02, UC-10, UC-17).
+* SparePart uses parts WorkOrder (0..\* to 0..\*): this is Member C's link (UC-19).
+* Alert monitors Equipment warranty and SparePart stock (dependencies): these are Member D's links. Alert only reads the data (FR-17, FR-20, UC-18, UC-19).
+
+
+
+Design choices
+
+
+
+* Equipment stores only the current location. Past locations go in LocationHistory, so a move never overwrites an old record.
+* Document is its own class because an item has many files, each with a type, expiry date and uploader. It stores only equipmentId and uploadedBy as IDs, so access control stays in Member B's classes.
+* Compatibility is an association between SparePart and Equipment instead of an attribute, because a part can fit many equipment items.
+* SparePart's deductStock takes a workOrderId, so every deduction can be traced to a repair job (FR-20).
+* Alert raises the warranty and low-stock alerts and only reads the data. Equipment and SparePart keep the data they own, such as warrantyExpiry and minThreshold.
+
+
 
 
 
