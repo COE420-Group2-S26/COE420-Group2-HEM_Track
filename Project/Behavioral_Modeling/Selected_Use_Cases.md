@@ -30,3 +30,12 @@ Member C : Adithya V
 
 
 
+
+
+Member D : Azim
+
+|Use Case ID|Use Case Name|Primary Actor|Purpose|Reason for Selection|
+|-|-|-|-|-|
+|UC05|Register New Asset|Inventory Manager|The manager inputs a new piece of equipment's asset ID, serial number, manufacturer, model, purchase date, and department into the system to officially register it in the hospital's inventory.|Essential for adding new hospital equipment to the inventory and enabling assets to be tracked and maintained throughout their lifecycle.|
+
+
